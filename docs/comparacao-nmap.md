@@ -57,7 +57,7 @@ nmap -sT -Pn -n -p 22,80,443,2222,3306,5432,6379,8080 127.0.0.1
 
 Aqui o resultado foi o mesmo, ambos encontraram as 4 portas abertas.
 
-Temos apenas uma ressalva, pois o Pscan ele classificou a porta `2222` como `unknown`, mas isso aconteceu porque na tabela de portas colocamos apenas 34 portas conhecidas.
+Temos apenas uma ressalva, pois o Pscan ele classificou a porta `2222` como `unknown`, mas isso aconteceu porque na tabela de portas colocamos apenas 32 portas conhecidas.
 
 
 ## Teste 3 — portas 1 a 1024 em host externo
